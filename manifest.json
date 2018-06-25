@@ -1,0 +1,20 @@
+{
+
+  "manifest_version": 2,
+  "name": "Extension Scodoc (non officielle)",
+  "version": "1.0.3",
+
+  "description": "Calculer votre moyenne automatiquement avec l'extension non officielle Scodoc.",
+
+  "icons": {
+    "48": "icon/scodoc.png"
+  },
+
+  "content_scripts": [
+    {
+      "matches": ["http://iutcergy.org/notesscodoc/notes.php"],
+      "js": ["script.min.js"]
+    }
+  ]
+
+}
