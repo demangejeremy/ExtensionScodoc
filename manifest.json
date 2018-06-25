@@ -2,7 +2,7 @@
 
   "manifest_version": 2,
   "name": "Extension Scodoc (non officielle)",
-  "version": "1.0.4",
+  "version": "1.0.5",
 
   "description": "Calculez votre moyenne automatiquement avec l'extension non officielle Scodoc.",
 
@@ -13,7 +13,7 @@
   "content_scripts": [
     {
       "matches": ["http://iutcergy.org/notesscodoc/notes.php"],
-      "js": ["script.min.js"]
+      "js": ["jquery.min.js", "script.min.js"]
     }
   ]
 
