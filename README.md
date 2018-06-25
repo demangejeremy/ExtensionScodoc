@@ -5,3 +5,5 @@ Disponible sur Firefox : https://addons.mozilla.org/fr/firefox/addon/extension-s
 
 ## Comment utiliser l'extension ?
 Une fois connecté sur Scodoc, faites simplement un clic droit sur la page. Cliquez sur Examiner l'élément. Cliquez ensuite sur l'onglet console. Et vous allez voir apparaître toutes vos moyennes.
+
+Pour les aventuriers, le code source de l'extension se trouve dans le fichier script.js à la racine du projet.
