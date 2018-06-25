@@ -53,8 +53,8 @@ var coeffUE1 = classUE[0].querySelectorAll("td");
 coeffUE1 = Number(coeffUE1[4].innerHTML);
 var coeffUE2 = classUE[1].querySelectorAll("td");
 coeffUE2 = Number(coeffUE2[4].innerHTML);
-console.log("coefficient UE1 : " + coeffUE1);
-console.log("coefficient UE2 : " + coeffUE2);
+console.log("Coefficient UE1 : " + coeffUE1);
+console.log("Coefficient UE2 : " + coeffUE2);
 console.log("////////////////////");
 
 
@@ -67,7 +67,7 @@ for (i = 0; i < nbMatieres; i++) {
     // Calcul du coefficient matiere
     coeffMatiere[i] = baliseTD[3].innerHTML;
     // On affiche le Coefficient de la matiere
-    console.log("coefficient : " + coeffMatiere[i]);
+    console.log("Coefficient : " + coeffMatiere[i]);
     // Initialisation des donnees
     totalEnCours, coeff, noteActuelle, division = 0;
     // Pour eviter les soucis, on initialise le totalEnCours a 0.001
