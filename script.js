@@ -58,7 +58,7 @@ console.log("coefficient UE2 : " + coeffUE2);
 console.log("////////////////////");
 
 
-// La boucle qui tue (c'est elle qui calcule les moyenne)
+// La boucle qui tue (c'est elle qui calcule les moyennes)
 for (i = 0; i < nbMatieres; i++) {
     // L'etat decide la fin de la boucle
     etatFinal = true;
