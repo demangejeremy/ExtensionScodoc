@@ -2,9 +2,9 @@
 
   "manifest_version": 2,
   "name": "Extension Scodoc (non officielle)",
-  "version": "1.0.3",
+  "version": "1.0.4",
 
-  "description": "Calculer votre moyenne automatiquement avec l'extension non officielle Scodoc.",
+  "description": "Calculez votre moyenne automatiquement avec l'extension non officielle Scodoc.",
 
   "icons": {
     "48": "icon/scodoc.png"
